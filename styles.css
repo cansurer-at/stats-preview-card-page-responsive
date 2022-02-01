@@ -104,3 +104,155 @@ body {
   margin-left: 4.5rem;
   margin-right: 9rem;
 }
+
+@media only screen and (min-device-width: 1025px) {
+  .main-img-mobile {
+    display: none;
+  }
+
+  .img-shadow-mobile {
+    display: none;
+  }
+
+  .get-text-mobile {
+    display: none;
+  }
+
+  .desc-text-mobile {
+    display: none;
+  }
+  .middle-data {
+    display: none;
+  }
+  .main-card-mobile {
+    display: none;
+  }
+
+  .middle-data-title {
+    display: none;
+  }
+
+
+  .middle-data-desc {
+    display: none;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html,
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0a0c1c;
+    overflow-x: hidden;
+  }
+
+  .card-container {
+    display: none;
+  }
+  
+
+  .main-img-mobile {
+    display: flex;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: url(/images/image-header-desktop.jpg);
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    max-width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+
+  .main-card-mobile {
+    box-shadow: 0 20px 20px -10px rgba(23, 25, 41, 0.2);
+    margin: 5.5rem 0 5.5rem 0rem;
+    max-width: calc(100vw - 3rem);
+    border-radius: 8px;
+    background-color: #1b1937;
+  }
+
+  .img-shadow-mobile {
+    background-color: #ab5cdb;
+    display: flex;
+    border-radius: 8px;
+    max-height: 15rem;
+  }
+  .get-text-mobile {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    line-height: 1.14;
+    color: #fff;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+  }
+
+  .insights-span-mobile {
+    color: #ab5cdb;
+  }
+
+  .desc-text-mobile {
+    opacity: 0.75;
+    font-family: "Inter", sans-serif;
+    font-size: 0.938rem;
+    line-height: 1.67;
+    text-align: center;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .middle-data-title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.8rem;
+  }
+
+ 
+
+  
+
+  .middle-data-desc {
+  font-family: "Lexend Deca", sans-serif;
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 2.08;
+  letter-spacing: 0.063rem;
+  text-align: center;
+  color: #fff;
+
+    
+  }
+
+  .k{
+    margin-bottom: 0.4rem;
+  }
+
+  .threehund{
+    margin-top: 1.3rem;
+  }
+
+  .temp{
+    margin-top: -1.2rem;
+  }
+
+  .million{
+    margin-top: 1.3rem;
+  }
+
+  .queri{
+    margin-top: -1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  
+
+}
+
